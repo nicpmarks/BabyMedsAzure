@@ -1,10 +1,14 @@
-using MongoExample.Models;
-using MongoExample.Services;
+using BabyMedsAzure.Models;
+using BabyMedsAzure.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.Configure<MongoDBSettings>(builder.Configuration.GetSection("MongoDB"));
+
+//builder.Services.Configure<MongoDBSettings>(builder.Configuration.GetSection("MongoDB"));
 builder.Services.AddSingleton<MongoDBService>();
+
+//Console.WriteLine(builder.Configuration["MongoDB:ConnectionURI"]);
 
 // Add services to the container.
 builder.Services.AddRazorPages();

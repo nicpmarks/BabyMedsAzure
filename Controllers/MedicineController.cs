@@ -1,7 +1,7 @@
 using System;
 using Microsoft.AspNetCore.Mvc;
-using MongoExample.Services;
-using MongoExample.Models;
+using BabyMedsAzure.Services;
+using BabyMedsAzure.Models;
 
 namespace BabyMedsAzure.Controllers; 
 
@@ -16,6 +16,11 @@ public class MedicineController: Controller {
 
     [HttpGet]
     public async Task<List<Medicine>> Get() {
+
+		Console.WriteLine("Entered Get");
+
+		_mongoDBService.AddMedicineTest("test1");
+		_mongoDBService.AddMedicineTest("test2");
 		return await _mongoDBService.GetAsync();
 	}
 

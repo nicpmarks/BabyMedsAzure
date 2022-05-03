@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "B:\\Documents\\Software\\BabyMedsAzure\\BabyMedsAzure.csproj": {}
+    "C:\\Projects\\Software\\BabyMedsAzure\\BabyMedsAzure\\BabyMedsAzure.csproj": {}
   },
   "projects": {
-    "B:\\Documents\\Software\\BabyMedsAzure\\BabyMedsAzure.csproj": {
+    "C:\\Projects\\Software\\BabyMedsAzure\\BabyMedsAzure\\BabyMedsAzure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "B:\\Documents\\Software\\BabyMedsAzure\\BabyMedsAzure.csproj",
+        "projectUniqueName": "C:\\Projects\\Software\\BabyMedsAzure\\BabyMedsAzure\\BabyMedsAzure.csproj",
         "projectName": "BabyMedsAzure",
-        "projectPath": "B:\\Documents\\Software\\BabyMedsAzure\\BabyMedsAzure.csproj",
-        "packagesPath": "C:\\Users\\nic\\.nuget\\packages\\",
-        "outputPath": "B:\\Documents\\Software\\BabyMedsAzure\\obj\\",
+        "projectPath": "C:\\Projects\\Software\\BabyMedsAzure\\BabyMedsAzure\\BabyMedsAzure.csproj",
+        "packagesPath": "C:\\Users\\nmarks\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\Software\\BabyMedsAzure\\BabyMedsAzure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\nic\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\nmarks\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -37,6 +37,16 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[*, )"
+            },
+            "System.Console": {
+              "target": "Package",
+              "version": "[4.3.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

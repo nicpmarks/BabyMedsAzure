@@ -1,4 +1,4 @@
-using MongoExample.Models;
+using BabyMedsAzure.Models;
 using Microsoft.Extensions.Options;
 using MongoDB.Driver;
 using MongoDB.Bson;
@@ -11,6 +11,7 @@ public class MongoDBService {
 
     public MongoDBService(IOptions<MongoDBSettings> mongoDBSettings) {
         MongoClient client = new MongoClient(mongoDBSettings.Value.ConnectionURI);
+		
         IMongoDatabase database = client.GetDatabase(mongoDBSettings.Value.DatabaseName);
         _babyMedsCollection = database.GetCollection<Medicine>(mongoDBSettings.Value.CollectionName);
     }
@@ -21,6 +22,13 @@ public class MongoDBService {
 	}
 	public async Task<List<Medicine>> GetAsync() {
 		return await _babyMedsCollection.Find(new BsonDocument()).ToListAsync();
+	}
+
+	public void AddMedicineTest(string name) {
+		var med = new Medicine();
+		med.medicineName = name;
+		_babyMedsCollection.InsertOneAsync(med);
+		
 	}
 
 }
