@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\Software\\BabyMedsAzure\\BabyMedsAzure\\BabyMedsAzure.csproj": {}
+    "B:\\Documents\\Software\\BabyMedsAzure\\BabyMedsAzure.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\Software\\BabyMedsAzure\\BabyMedsAzure\\BabyMedsAzure.csproj": {
+    "B:\\Documents\\Software\\BabyMedsAzure\\BabyMedsAzure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\Software\\BabyMedsAzure\\BabyMedsAzure\\BabyMedsAzure.csproj",
+        "projectUniqueName": "B:\\Documents\\Software\\BabyMedsAzure\\BabyMedsAzure.csproj",
         "projectName": "BabyMedsAzure",
-        "projectPath": "C:\\Projects\\Software\\BabyMedsAzure\\BabyMedsAzure\\BabyMedsAzure.csproj",
-        "packagesPath": "C:\\Users\\nmarks\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\Software\\BabyMedsAzure\\BabyMedsAzure\\obj\\",
+        "projectPath": "B:\\Documents\\Software\\BabyMedsAzure\\BabyMedsAzure.csproj",
+        "packagesPath": "C:\\Users\\nic\\.nuget\\packages\\",
+        "outputPath": "B:\\Documents\\Software\\BabyMedsAzure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\nmarks\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\nic\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"

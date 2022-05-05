@@ -20,13 +20,16 @@ public class MedicineController: Controller {
 
 		Console.WriteLine("Entered Get");
 
-		_mongoDBService.AddMedicineTest("test1");
-		_mongoDBService.AddMedicineTest("test2");
+		//_mongoDBService.AddMedicineTest("test1");
+		//_mongoDBService.AddMedicineTest("test2");
 		return await _mongoDBService.GetAsync();
 	}
 
 	[HttpPost]
 	public async Task<IActionResult> Post([FromBody] Medicine medicine) {
+
+		Console.WriteLine("Entered Post");
+
 		await _mongoDBService.AddMedicineAsync(medicine);
 		return CreatedAtAction(nameof(Get), new { id = medicine.Id }, medicine);
 	}
