@@ -11,9 +11,27 @@ public class MongoDBService {
 
     public MongoDBService(IOptions<MongoDBSettings> mongoDBSettings) {
         MongoClient client = new MongoClient(mongoDBSettings.Value.ConnectionURI);
+
+		Console.WriteLine("got client");
 		
         IMongoDatabase database = client.GetDatabase(mongoDBSettings.Value.DatabaseName);
+
+		Console.WriteLine("got database");
+
         _babyMedsCollection = database.GetCollection<Medicine>(mongoDBSettings.Value.CollectionName);
+
+		Console.WriteLine("got collection");
+
+		using (IAsyncCursor<BsonDocument> cursor = client.ListDatabases())
+		{
+			while (cursor.MoveNext())
+			{
+				foreach (var doc in cursor.Current)
+				{
+					Console.WriteLine(doc["name"]); // database name
+				}
+			}
+		}
     }
 
 	public async Task AddMedicineAsync(Medicine medicine) {

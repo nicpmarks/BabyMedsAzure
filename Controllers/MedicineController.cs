@@ -3,19 +3,20 @@ using Microsoft.AspNetCore.Mvc;
 using BabyMedsAzure.Services;
 using BabyMedsAzure.Models;
 
-namespace BabyMedsAzure.Controllers; 
+namespace BabyMedsAzure.Controllers;
 
-[Controller]
+	
 [Route("api/[controller]")]
+[ApiController]
 public class MedicineController: Controller {
-    
-    private readonly MongoDBService _mongoDBService;
-    public MedicineController(MongoDBService mongoDBService) {
-        _mongoDBService = mongoDBService;
-    }
+	
+	private readonly MongoDBService _mongoDBService;
+	public MedicineController(MongoDBService mongoDBService) {
+		_mongoDBService = mongoDBService;
+	}
 
-    [HttpGet]
-    public async Task<List<Medicine>> Get() {
+	[HttpGet]
+	public async Task<List<Medicine>> Get() {
 
 		Console.WriteLine("Entered Get");
 
@@ -24,10 +25,10 @@ public class MedicineController: Controller {
 		return await _mongoDBService.GetAsync();
 	}
 
-    [HttpPost]
-    public async Task<IActionResult> Post([FromBody] Medicine medicine) {
+	[HttpPost]
+	public async Task<IActionResult> Post([FromBody] Medicine medicine) {
 		await _mongoDBService.AddMedicineAsync(medicine);
-    	return CreatedAtAction(nameof(Get), new { id = medicine.Id }, medicine);
+		return CreatedAtAction(nameof(Get), new { id = medicine.Id }, medicine);
 	}
 
 

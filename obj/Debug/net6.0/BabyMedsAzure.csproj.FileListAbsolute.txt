@@ -1,11 +1,3 @@
-C:\Projects\Software\BabyMedsAzure\BabyMedsAzure\obj\Debug\net6.0\BabyMedsAzure.csproj.AssemblyReference.cache
-C:\Projects\Software\BabyMedsAzure\BabyMedsAzure\obj\Debug\net6.0\BabyMedsAzure.GeneratedMSBuildEditorConfig.editorconfig
-C:\Projects\Software\BabyMedsAzure\BabyMedsAzure\obj\Debug\net6.0\BabyMedsAzure.AssemblyInfoInputs.cache
-C:\Projects\Software\BabyMedsAzure\BabyMedsAzure\obj\Debug\net6.0\BabyMedsAzure.AssemblyInfo.cs
-C:\Projects\Software\BabyMedsAzure\BabyMedsAzure\obj\Debug\net6.0\BabyMedsAzure.csproj.CoreCompileInputs.cache
-C:\Projects\Software\BabyMedsAzure\BabyMedsAzure\obj\Debug\net6.0\BabyMedsAzure.MvcApplicationPartsAssemblyInfo.cache
-C:\Projects\Software\BabyMedsAzure\BabyMedsAzure\obj\Debug\net6.0\BabyMedsAzure.RazorAssemblyInfo.cache
-C:\Projects\Software\BabyMedsAzure\BabyMedsAzure\obj\Debug\net6.0\BabyMedsAzure.RazorAssemblyInfo.cs
 C:\Projects\Software\BabyMedsAzure\BabyMedsAzure\bin\Debug\net6.0\appsettings.Development.json
 C:\Projects\Software\BabyMedsAzure\BabyMedsAzure\bin\Debug\net6.0\appsettings.json
 C:\Projects\Software\BabyMedsAzure\BabyMedsAzure\bin\Debug\net6.0\BabyMedsAzure.staticwebassets.runtime.json
@@ -30,6 +22,14 @@ C:\Projects\Software\BabyMedsAzure\BabyMedsAzure\bin\Debug\net6.0\runtimes\win\n
 C:\Projects\Software\BabyMedsAzure\BabyMedsAzure\bin\Debug\net6.0\runtimes\linux\native\libmongocrypt.so
 C:\Projects\Software\BabyMedsAzure\BabyMedsAzure\bin\Debug\net6.0\runtimes\osx\native\libmongocrypt.dylib
 C:\Projects\Software\BabyMedsAzure\BabyMedsAzure\bin\Debug\net6.0\runtimes\win\native\mongocrypt.dll
+C:\Projects\Software\BabyMedsAzure\BabyMedsAzure\obj\Debug\net6.0\BabyMedsAzure.csproj.AssemblyReference.cache
+C:\Projects\Software\BabyMedsAzure\BabyMedsAzure\obj\Debug\net6.0\BabyMedsAzure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\Software\BabyMedsAzure\BabyMedsAzure\obj\Debug\net6.0\BabyMedsAzure.AssemblyInfoInputs.cache
+C:\Projects\Software\BabyMedsAzure\BabyMedsAzure\obj\Debug\net6.0\BabyMedsAzure.AssemblyInfo.cs
+C:\Projects\Software\BabyMedsAzure\BabyMedsAzure\obj\Debug\net6.0\BabyMedsAzure.csproj.CoreCompileInputs.cache
+C:\Projects\Software\BabyMedsAzure\BabyMedsAzure\obj\Debug\net6.0\BabyMedsAzure.MvcApplicationPartsAssemblyInfo.cache
+C:\Projects\Software\BabyMedsAzure\BabyMedsAzure\obj\Debug\net6.0\BabyMedsAzure.RazorAssemblyInfo.cache
+C:\Projects\Software\BabyMedsAzure\BabyMedsAzure\obj\Debug\net6.0\BabyMedsAzure.RazorAssemblyInfo.cs
 C:\Projects\Software\BabyMedsAzure\BabyMedsAzure\obj\Debug\net6.0\staticwebassets.build.json
 C:\Projects\Software\BabyMedsAzure\BabyMedsAzure\obj\Debug\net6.0\staticwebassets.development.json
 C:\Projects\Software\BabyMedsAzure\BabyMedsAzure\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
